@@ -2,6 +2,13 @@
 
 Essa é uma aplicação de pesquisa na API do Github
 
+# Demonstração
+
+![Github Home](./src/assets/images/demo-01.png);
+![Github Usuário](./src/assets/images/demo-02.png);
+![Github Repositórios](./src/assets/images/demo-03.png);
+![Github Repositório](./src/assets/images/demo-04.png);
+
 **🎛 Setup**
 
 -   [Development](#development)
