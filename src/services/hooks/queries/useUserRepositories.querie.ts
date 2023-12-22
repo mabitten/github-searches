@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 /**
  * Retorna os dados completo do repositório do usuário
  */
-export const useUserRepositories = (username = "", enabled = false) => {
+export const useUserRepositories = (username = "") => {
     return useQuery(queryKeys.userRepositories, {
         enabled: username.length > 0,
         /**
