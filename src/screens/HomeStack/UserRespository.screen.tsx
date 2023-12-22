@@ -11,6 +11,7 @@ import { t } from "i18next";
 
 /**
  * Tela de visualização dos repositórios do usuário.
+ * #TODO: Precisa adicionar paginação, atualmente só trás 30 repositórios: https://tanstack.com/query/v4/docs/react/guides/paginated-queries
  */
 export const UserRepositoryScreen = () => {
     const { username } = useParams();
